@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>DeepVenge Dev Studio</title>
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+    body {
+      margin: 0;
+      background: #001f3f;
+      color: #00fefe;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      line-height: 1.6;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+    }
+    header {
+      background: #003366;
+      padding: 2rem 1rem;
+      text-align: center;
+      box-shadow: 0 0 20px #00fefe;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 3rem;
+      text-shadow: 0 0 10px #00fefe;
+    }
+    main {
+      flex: 1;
+      max-width: 900px;
+      margin: 2rem auto;
+      padding: 0 1rem;
+    }
+    section {
+      background: #00264d;
+      margin-bottom: 2rem;
+      padding: 1.5rem 2rem;
+      border-radius: 10px;
+      box-shadow: 0 0 15px #00fefe44;
+    }
+    section h2 {
+      border-bottom: 2px solid #00fefe;
+      padding-bottom: 0.5rem;
+      margin-bottom: 1rem;
+      font-size: 2rem;
+      color: #00fefe;
+      text-shadow: 0 0 8px #00fefe;
+    }
+    p {
+      color: #b3eaff;
+      font-size: 1.1rem;
+    }
+    .team {
+      display: flex;
+      gap: 2rem;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+    .member {
+      background: #003a70;
+      padding: 1rem;
+      border-radius: 8px;
+      box-shadow: 0 0 10px #00fefeaa;
+      flex: 1 1 200px;
+      max-width: 250px;
+      text-align: center;
+    }
+    .member h3 {
+      margin-top: 0;
+      color: #00ffff;
+      font-size: 1.4rem;
+      text-shadow: 0 0 6px #00ffff;
+    }
+    .member p {
+      color: #d0f4ff;
+      font-size: 1rem;
+    }
+    .support-section {
+      text-align: center;
+      margin-top: 2rem;
+    }
+    .support-section p {
+      font-size: 1.2rem;
+      margin-bottom: 1rem;
+      color: #b3eaff;
+    }
+    .support-buttons {
+      display: flex;
+      justify-content: center;
+      gap: 1.5rem;
+      flex-wrap: wrap;
+    }
+    button {
+      background: #00fefe;
+      border: none;
+      color: #001f3f;
+      font-weight: bold;
+      padding: 0.75rem 1.8rem;
+      border-radius: 6px;
+      cursor: pointer;
+      font-size: 1.1rem;
+      box-shadow: 0 0 20px #00fefe;
+      transition: background-color 0.3s ease;
+      min-width: 140px;
+    }
+    button:hover {
+      background: #33ffff;
+    }
+    footer {
+      text-align: center;
+      padding: 1rem;
+      background: #00264d;
+      color: #00fefeaa;
+      font-size: 0.9rem;
+      box-shadow: inset 0 1px 3px #00fefe44;
+      margin-top: auto;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>DeepVenge Dev Studio</h1>
+  </header>
+  <main>
+    <section>
+      <h2>About Crystal Tycoon</h2>
+      <p>
+        Welcome to DeepVenge Dev Studio! We're hard at work crafting <strong>Crystal Tycoon</strong>, an exciting Roblox tycoon game filled with dazzling neon crystals and engaging gameplay.
+        Our mission is to deliver a unique experience that combines strategy, creativity, and fun. Stay tuned for exclusive updates and sneak peeks as we build this neon-lit adventure!
+      </p>
+    </section>
+    <section>
+      <h2>Meet Our Leadership</h2>
+      <div class="team">
+        <div class="member">
+          <h3>Mr Duck</h3>
+          <p><em>Temporary CEO</em></p>
+          <p> CEO also our animator , makes sure that everyone follows the guide lines and helps run the studio</p>
+        </div>
+        <div class="member">
+          <h3>Lyst</h3>
+          <p><em>COO</em></p>
+          <p>builds 3D and 2D models elected by vr for CO-leadership</p>
+        </div>
+        <div class="member">
+          <h3>Protagonist</h3>
+          <p><em>Head Developer</em></p>
+          <p>also the builder,makes sure everyone is working and that everything runs smoothly</p>
+        </div>
+      </div>
+    </section>
+    <section class="support-section">
+      <p>Support us by visiting our Roblox group or our YouTube channel!</p>
+      <div class="support-buttons">
+        <button onclick="window.open('https://www.roblox.com/communities/36043183/DeepVengeX-Development-Studio#!/about', '_blank')">Support on Roblox</button>
+        <button onclick="window.open('https://www.youtube.com/@DeepVengeX', '_blank')">Support on YouTube</button>
+      </div>
+    </section>
+  </main>
+  <footer>
+    Website made by JustA_normie5. Special thanks to VR, Head of Deving!
+  </footer>
+</body>
+</html>
